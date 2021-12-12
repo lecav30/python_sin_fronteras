@@ -123,16 +123,54 @@ del diccionario['ronronea']
 # Para limpiar el diccionario:
 diccionario.clear()
 
-print(diccionario, copia_gato)
+# print(diccionario, copia_gato)
 
+# Diccionarios anidados
+# Primer forma:
 
+# gatitos = {
+#         "Fluffy" : {
+#             "nombre" : "Fluffy",
+#             "edad" : 4,
+#             },
+#         "Mamba" : {
+#             "nombre" : "Black Mamba",
+#             "edad" : 12,
+#             }
+#         }
 
+# Segunda forma:
 
+fluffy = {
+        "nombre" : "Fluffy",
+        "edad" : 4
+        }
 
+mamba = {
+        "nombre" : "Black Mamba",
+        "edad" : 12
+        }
 
+gatitos = {
+        "Fluffy" : fluffy,
+        "Mamba" : mamba
+        }
 
+# print(gatitos)
 
+# Constructor dict
 
+perritos = dict(nombre = "Chanchito feliz", edad = 5)
+print(perritos)
 
+# Ambas sintaxis para crear diccionarios son válidas y ninguna es mejor que la otra
 
+# Booleanos #
+
+# La primera letra debe ir con mayúscula
+
+verdadero = True
+falso = False
+
+print(verdadero, falso)
 
