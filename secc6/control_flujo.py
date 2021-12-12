@@ -1,0 +1,52 @@
+# Condicionales
+
+# if 2 < 5:
+#     print("2 es menor que 5")
+
+# Comparación de igualdad ==
+# Comparación de diferencia !=
+# Comparación menor <
+# Comparación mayor >
+# Comparación menor igual <=
+# Comparación mayor igual >=
+
+# if 2 == 2:
+#     print('2 es igual a 2')
+    
+# if 2 == 3:
+#     print('2 es igual a 3')
+
+# if 2 > 5: 
+#     print('2 es mayor a 5')
+
+# if 5 > 2: 
+#     print('5 es mayor a 2')
+
+# if 2 != 2:
+#     print('2 es distinto a 2')
+
+# if 3 != 2:
+#     print('3 es distinto a 2')
+
+# if 3 >= 2:
+#     print('3 es mayor o igual a 2')
+
+# if 3 >= 3:
+#     print('3 es mayor o igual a 3')
+
+
+# Elif, Else #
+
+if 2 > 5:
+    print('2 menor a 5 en if')
+elif 2 > 5:
+    print('2 menor a 5 en elif')
+elif 2 < 5:
+    print('2 menor a 5 en segundo elif')
+else:
+    print('yo me imprimo solo si todo lo anterior es falso')
+
+# No es obligatorio que exista un elif entre el if y el else
+
+
+
