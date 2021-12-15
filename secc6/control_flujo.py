@@ -48,5 +48,26 @@ else:
 
 # No es obligatorio que exista un elif entre el if y el else
 
+# If cortos #
+
+if 2 < 5: print('If de una linea')
+
+# Operador ternario #
+
+# Operacion en caso verdadero IF condicion ELSE Operacion en caso falso
+
+print('Cuando devuelve true') if 5 > 2 else print('Cuando devuelve false')
+
+# And y or #
+
+# And requiere que ambas condiciones sean verdaderas para retornar verdadero
+
+if 2 < 5 and 3 > 2:
+    print('ambas devuelven true')
+
+# Or requiere que al menos una de las condiciones sea verdadera para retornar verdadero
+
+if 2 > 5 or 3 > 2:
+    print('devolvera true')
 
 
