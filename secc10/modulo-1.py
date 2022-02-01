@@ -10,8 +10,33 @@
 
 # Renombrando módulos #
 
-import modulos as xs
+# import modulos as xs
 
-print (xs.mascotas)
+# Seleccionando lo importado #
 
-xs.saludo('Lalito')
+from modulos import saludo, mascotas
+# Módulo instalado con pip3 
+from camelcase import CamelCase 
+
+# print (xs.mascotas)
+print(mascotas)
+saludo('Lalito')
+
+c = CamelCase()
+
+s = 'esta oración necesita CamelCase!'
+
+camelcased =  c.hump(s)
+
+print(camelcased)
+
+# COMANDOS PIP #
+
+# Instalar 
+# pip3 install modulo
+
+# Desinstalar 
+# pip3 uninstall modulo
+
+# Listar
+# pip3 list
