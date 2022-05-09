@@ -1,3 +1,19 @@
 body {
   background-color: #eee;
 }
+
+p {
+  /* display: inline; */
+  /* Es responsivo */
+  max-width: 350px;
+  background-color: #fee;
+  margin: auto;
+  /* Deja el contenido fijo en la pantalla */
+  /* Usado para menús estáticos */
+  position: fixed;
+  /* position: relative; */
+  /* Propiedades para mover */
+  right: 15px;
+  top: 0px;
+  bottom: 0px;
+}
