@@ -54,7 +54,7 @@ body {
   background-image: linear-gradient(-45deg, rgba(255, 0, 0, 0.2), tomato);
   /* direción, color1 alcance1%, color2 alcance2%, ..., color_n alcance_n%*/
   background-image: repeating-linear-gradient(
-    -0deg,
+    -15deg,
     rgba(255, 0, 0, 0.2) 10%,
     tomato 20%
   );
