@@ -1,0 +1,32 @@
+body {
+  background-image: #eee;
+}
+
+.grid {
+  /* Disposición por columnas */
+  /* Todos los elementos que se encuentren dentro de la clase grid,
+  serán considerados una grilla */
+  display: grid;
+  /* El ancho de la etiqueta será el ancho de su contenido */
+  /* display: inline-grid; */
+  /* Se debe indicar la altura por cada fila */
+  grid-template-rows: 50px 100px;
+  grid-template-rows: repeat(2, 50px);
+  /* La cantidad de columnas que se forma es en base a la cantidad de 
+  datos que pasemos */
+  /* grid-template-columns: 90px 50px 120px; */
+  /* También se pueden utilizar fracciones (en base al ancho del contenedor) */
+  /* grid-template-columns: 1fr 2fr 3fr; */
+  /* Otros valores para medir */
+  /* grid-template-columns: 2rem 20% 1fr 2fr; */
+  /* minmax(min, max) */
+  grid-template-columns: minmax(auto, 50%) 1fr 2em;
+  /* Sirve para indicarle a la grilla la cantidad de veces que se quiere que se
+  repita un argumento en la propiedad indicada */
+  /* También se puede usar otros argumentos con el valor de repeat */
+  grid-template-columns: 30px repeat(3, 1fr) 15px;
+}
+
+.element {
+  background-color: red;
+}
