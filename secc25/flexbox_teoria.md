@@ -7,10 +7,10 @@ CSS Grid trabaja con filas y columnas sin problemas, en cambio Flexbox solo trab
 ### Elementos de Flexbox:
 
 ***Figura 1:***
-![Elementos de Flexbox](/image/flex-elementos.jpg)
+![Elementos de Flexbox](./image/flex-elementos.jpg)
 
 ***Figura 2:***
-![Flexbox Elements](/image/flex-elements.svg)
+![Flexbox Elements](./image/flex-elements.svg)
 
 
 *Página de referencia:*
